@@ -1,0 +1,83 @@
+.dashboard {
+  padding-left: 260px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.dashboard-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cards-container,
+.actions-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.about-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-card h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.quick-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.quick-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quick-card button {
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.quick-card button:hover {
+  background-color: #0369a1;
+}
+
+.history-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}

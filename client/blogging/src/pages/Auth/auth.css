@@ -1,0 +1,32 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 20px;
+    gap: 16px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+#outlined-basic{
+    color: black;
+}
+.button{
+    padding: 12px 2px !important;
+    font-size: 1rem !important;
+    margin-bottom: 20px !important;
+    &:hover{
+        background-color: transparent;
+        outline: 3px solid rgb(46, 119, 228);
+        color: black;
+        transition: linear 0.27s;
+    }
+}
+.container{
+    height: 90vh;
+    display: grid;
+    place-items: center;
+}
+.link{
+    text-decoration: none !important;
+    color: rgb(46, 119, 228);
+}
