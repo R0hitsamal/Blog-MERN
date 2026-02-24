@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+}
+.action-icons {
+  display: flex;
+  gap: 18px;
+}
+
+.action-icons i {
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-icon {
+  color: #1976d2;
+  background: #e3f2fd;
+  
+}
+
+.edit-icon:hover {
+  background: #1976d2;
+  color: white;
+  transform: scale(1.1);
+}
+
+.delete-icon {
+  color: #d32f2f;
+  background: #fdecea;
+}
+
+.delete-icon:hover {
+  background: #d32f2f;
+  color: white;
+  transform: scale(1.1);
+}
